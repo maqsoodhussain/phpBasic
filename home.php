@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +25,7 @@
     
 <div class="center">
 <a href="login.php"> <button type="button" class="btn btn-primary">LOGIN</button></a>
-<a href="signup.php"></a><button type="button" class="btn btn-primary">SIGN UP </button></a>
+<A href="signup.php"><button type="button" class="btn btn-primary">SIGN UP </button></a>
 </div>
 
 </body>
