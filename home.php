@@ -27,6 +27,8 @@
 <a href="login.php"> <button type="button" class="btn btn-primary">LOGIN</button></a>
 <A href="signup.php"><button type="button" class="btn btn-primary">SIGN UP </button></a>
 </div>
-
+<br><br><center>
+<A href="getdata.php"><button type="button" class="btn btn-primary">GET DATA FROM DATABASE </button></a>
+</center>
 </body>
 </html>
