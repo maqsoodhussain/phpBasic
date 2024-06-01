@@ -16,12 +16,16 @@
      $name =$_POST["name"];
      $email =$_POST["email"];
      $password = $_POST["password"];
-     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
 
     
-     $query = "Insert into logindetails(username, name, email, password) values('$uname', '$name','$email','$hashedPassword')";
+    
 
-    if(!$con){echo("No connection");}else{
+    if(!$con){
+        echo("No connection");
+    }
+    else{
+        $query = "Insert into logindetails(username, name, email, password) values('$uname', '$name','$email','$password')";
         $res = mysqli_query($con,$query);
 
     }
