@@ -55,7 +55,7 @@
                 <td>".$row['password']."</td>
                 <td>
                     <a class='btn btn-danger' href='curd.php?key=".$row['username']."'>Delete</a>
-                    <a class='btn btn-primary' href='curd.php?key=".$row['username']."'>Edit</a>
+                    <a class='btn btn-primary' href='edit.php?key=".$row['username']."'>Edit</a>
                 </td>
               </tr>";
 
