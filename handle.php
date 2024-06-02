@@ -21,12 +21,12 @@
     
     
 
-    if(!$con){
+    if(!$conn){
         echo("No connection");
     }
     else{
         $query = "Insert into logindetails(username, name, email, password) values('$uname', '$name','$email','$password')";
-        $res = mysqli_query($con,$query);
+        $res = mysqli_query($conn,$query);
 
     }
 
